@@ -6,7 +6,8 @@
     "dev": "vite --host",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --cache --ignore-path .gitignore",
     "build": "vite build",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "prepare": "cd .. && husky install create-vue2-js/.husky"
   },
   "dependencies": {
     "vue": "^2.7.14",
@@ -22,7 +23,9 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-vue": "^9.11.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
+    "husky": "^8.0.3",
     "prettier": "^2.8.7",
+    "sass": "^1.62.0",
     "terser": "^5.14.2",
     "vite": "^4.3.0"
   }

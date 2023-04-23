@@ -1,6 +1,6 @@
 # create-vue2-js
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with Vue 2 in Vite.
 
 ## Recommended IDE Setup
 
@@ -10,20 +10,22 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
-
-```sh
-npm install
+## Project setup
+```
+yarn install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+### Compiles and hot-reloads for development
+```
+yarn dev
 ```
 
-### Compile and Minify for Production
+### Compiles and minifies for production
+```
+yarn build
+```
 
-```sh
-npm run build
+### Lints and fixes files
+```
+yarn lint
 ```

@@ -1,4 +1,4 @@
-# create-vue3-ts
+# create-vue3-ts-allow-js-in-vue
 
 This template should help get you started developing with Vue 3 in Vite.
 

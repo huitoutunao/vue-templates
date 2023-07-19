@@ -15,7 +15,12 @@ module.exports = {
     '@vue/eslint-config-airbnb-with-typescript',
     '@vue/eslint-config-prettier',
   ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+  },
   rules: {
+    'no-console': 'off',
+    'no-debugger': 'off',
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
   },
   settings: {

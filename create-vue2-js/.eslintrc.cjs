@@ -15,7 +15,14 @@ module.exports = {
     '@vue/eslint-config-airbnb',
     '@vue/eslint-config-prettier',
   ],
-  rules: {},
+  parserOptions: {
+    ecmaVersion: 'latest',
+  },
+  rules: {
+    'no-console': 'off',
+    'no-debugger': 'off',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+  },
   settings: {
     ...createAliasSetting({
       '@': `${path.resolve(__dirname, './src')}`,

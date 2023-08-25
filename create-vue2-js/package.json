@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite --host",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --cache --ignore-path .gitignore",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --cache --cache-location ./node_modules/.cache/.eslintcache/ --ignore-path .gitignore",
     "build": "vite build",
     "preview": "vite preview --port 4173"
   },

@@ -5,7 +5,7 @@
   "scripts": {
     "cz": "czg",
     "dev": "vite --host",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --cache --fix --ignore-path .gitignore",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --cache --cache-location ./node_modules/.cache/.eslintcache/ --fix --ignore-path .gitignore",
     "build": "vue-tsc --noEmit && vite build",
     "type-check": "vue-tsc --noEmit",
     "preview": "vite preview",

@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "pinia": "^2.0.28",
-    "vue": "^3.3.0",
+    "vue": "^3.4.0",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
     "@types/node": "^18.11.12",
-    "@vitejs/plugin-vue": "^4.2.0",
+    "@vitejs/plugin-vue": "^5.0.0",
     "@vue/eslint-config-airbnb-with-typescript": "^7.0.0",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/tsconfig": "^0.1.3",
